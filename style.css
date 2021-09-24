@@ -1,0 +1,89 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+                                                        /*allt som ska likadant ut i hela bodyn*/
+}
+*>hr{
+    width:80%;                          
+   
+}
+.flexboxContainer{
+    display:flex;
+    background-color: rgb(51, 51, 51);
+   }
+.header{
+    min-height: 150px;
+   color: white;            /* här är det som rör headern*/
+  
+   }
+.header>h1{
+        font-size:65px ;
+        color: white;
+        font-weight: normal;
+        padding-left: 45px;
+    }
+.header>p{
+    font-size: 25px ;
+    padding-left: 45px;
+}
+.kolumner{                  /* Här är tabellstorleken*/
+ width:100%;  
+}                             
+.kolumn1{
+    width:30%;                         /* Här börjar tabell1-vänster*/  
+    background-color: lightgray;      
+    }
+.kolumn1>h2{
+    color:rgb(51, 51, 51);
+    text-align: center;
+    }
+.kolumn1>h3{
+    color:rgb(51, 51, 51);        /*Istället för att sätta id eller class på allt så kopplas det med en spec class*/
+    text-align: center;
+}
+.kolumn1>p{
+    font-size: 18px;
+    color:rgb(51, 51, 51);
+    text-align: center;
+}
+.kolumn1>ul{
+    display:table;
+    margin: 0 auto;
+}
+.link{
+    text-decoration:none;
+    color:rgb(51, 51, 51);  /* länkar utan underlinje*/
+    font-size: 18px;
+}
+.instagram{
+    text-decoration:none;
+    color:rgb(51, 51, 51);
+    font-size: 18px;
+}
+.kolumn2{
+    width:70%;                              /*Här börjar tabell2-höger*/ 
+    background-color:white;
+    border-left: 2px solid rgb(51, 51, 51);
+    padding-left: 50px;
+}                           
+.kolumn2>h2{                   
+    color:rgb(51, 51, 51);
+   padding-left: 100px;
+}                               
+.kolumn2>p{
+    text-align:left;
+}
+.Utbildning{
+   margin-left:50px;
+  } 
+.mail{
+    text-decoration:none;
+    color:rgb(51, 51, 51);
+    font-size: 18px;
+}
+.profilbild{
+    border: 2px solid rgb(51, 51, 51);
+    width:200px;
+    height:270px;                               
+    float:right;                    /*Här är de val som jag har gjort för profilbilden*/ 
+    margin-top: 15px;
+}
